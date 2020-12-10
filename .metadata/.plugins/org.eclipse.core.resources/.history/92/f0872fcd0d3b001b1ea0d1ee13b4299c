@@ -1,0 +1,22 @@
+/*
+============================================================================
+ Name		: accuracy.mmp
+ Author	  : 
+ Copyright   : Your copyright notice
+ Description : This is the project specification file for accuracy.
+============================================================================
+*/
+
+TARGET		  accuracy.exe
+TARGETTYPE	  exe
+UID			 0 0xe2405073
+
+USERINCLUDE	 ..\inc
+SYSTEMINCLUDE   \epoc32\include
+
+SOURCEPATH	  ..\src
+SOURCE		  accuracy.cpp
+
+LIBRARY		 euser.lib
+
+DEBUGGABLE_UDEBONLY

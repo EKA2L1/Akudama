@@ -1,0 +1,11 @@
+TARGET          accuracy.exe
+TARGETTYPE      exe
+UID             0 0xe2405073
+
+USERINCLUDE	    ..\inc
+SYSTEMINCLUDE   \epoc32\include
+
+SOURCEPATH	    ..\src
+SOURCE		    accuracy.cpp
+
+LIBRARY         euser.lib efsrv.lib

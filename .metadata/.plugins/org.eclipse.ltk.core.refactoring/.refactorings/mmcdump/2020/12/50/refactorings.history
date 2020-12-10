@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;mmcdump/inc/mmcbus&apos; to &apos;mmcbus.h&apos;" description="Rename resource &apos;mmcbus&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="inc/mmcbus" name="mmcbus.h" stamp="1607618702225" updateReferences="true"/>
+</session>

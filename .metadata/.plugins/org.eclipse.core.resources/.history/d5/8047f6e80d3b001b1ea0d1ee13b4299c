@@ -1,0 +1,22 @@
+/*
+ ============================================================================
+ Name		: accuracy.h
+ Author	  : 
+ Copyright   : Your copyright notice
+ Description : Exe header file
+ ============================================================================
+ */
+
+#ifndef __ACCURACY_H__
+#define __ACCURACY_H__
+
+//  Include Files
+
+#include <e32base.h>
+
+//  Function Prototypes
+
+GLDEF_C TInt E32Main();
+
+#endif  // __ACCURACY_H__
+

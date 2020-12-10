@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule buildFromInf="true" buildingTestComps="true" cleanLevel="0" concurrentBuildJobs="4" defaultMMPChangedAction="0" extraSBSv2Args="" infBuildComponents="" infFileLocation="group/bld.inf" macrosFile="" makeEngineToUse="make" manageDependencies="true" moduleId="com.nokia.carbide.cdt.builder.carbideCPPBuilder" overrideMakeEngine="false" overrideWorkspaceSettings="false" promptForMMPChangedAction="true" useConcurrentBuilding="true" useDebugMode="false" useIncrementalBuilder="false" useKeepGoing="false" useMMPMacros="true"/>
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="Phone Debug (GCCE) [S60_2nd_FP2]">
+			<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="Phone Debug (GCCE) [S60_2nd_FP2]" moduleId="org.eclipse.cdt.core.settings" name="Phone Debug (GCCE) [S60_2nd_FP2]">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.Elf2E32ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.GCCECompilerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.GCCEAssemblerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.GCCELinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="CarbideConfigurationDataProvider">
+				<SIS_BUILDER_DATA_ID CREATESTUBSTORAGE="false" ENABLEDSTORAGE="true" PARTIALUPGRADESTORAGE="false" PKGFILESTORAGE="E:\Dev\projects\akudama\mmcdump\sis\mmcdump_EKA2.pkg" SIGNINGTYPESTORAGE="1"/>
+				<ENV_VAR_DATA_ID/>
+				<ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
+			</storageModule>
+			<storageModule filesCache="E:\Dev\projects\akudama\mmcdump\group\bld.inf;E:\Dev\projects\akudama\mmcdump\group\mmcdump.mmp;" includesCache="E:/Dev/projects/akudama/mmcdump/inc[LOCAL];E:/Dev/Symbian/8.0a/Epoc32/include;" macrosCache="__SYMBIAN32__=1;_UNICODE=1;__SUPPORT_CPP_EXCEPTIONS__=1;_DEBUG=1;__GCCE__=1;__EPOC32__=1;__MARM__=1;__EABI__=1;__GENERIC_MARM__=1;__MARM_ARMV5__=1;GCCE=1;EPOC32=1;MARM=1;EABI=1;GENERIC_MARM=1;MARM_ARMV5=1;__EXE__=1;" moduleId="configDataCache" sourcesCache="/mmcdump/inc;/mmcdump/src;" timestampCache="1607618936261" useMmpMacrosCache="true"/>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+		</cconfiguration>
+		<cconfiguration id="Phone Release (GCCE) [S60_2nd_FP2]">
+			<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="Phone Release (GCCE) [S60_2nd_FP2]" moduleId="org.eclipse.cdt.core.settings" name="Phone Release (GCCE) [S60_2nd_FP2]">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.Elf2E32ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.GCCECompilerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.GCCEAssemblerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.nokia.carbide.cdt.builder.GCCELinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="CarbideConfigurationDataProvider">
+				<ENV_VAR_DATA_ID/>
+				<ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
+			</storageModule>
+			<storageModule filesCache="E:\Dev\projects\akudama\mmcdump\group\bld.inf;E:\Dev\projects\akudama\mmcdump\group\mmcdump.mmp;" includesCache="E:/Dev/projects/akudama/mmcdump/inc[LOCAL];E:/Dev/Symbian/8.0a/Epoc32/include;" macrosCache="__SYMBIAN32__=1;_UNICODE=1;__SUPPORT_CPP_EXCEPTIONS__=1;NDEBUG=1;__GCCE__=1;__EPOC32__=1;__MARM__=1;__EABI__=1;__GENERIC_MARM__=1;__MARM_ARMV5__=1;GCCE=1;EPOC32=1;MARM=1;EABI=1;GENERIC_MARM=1;MARM_ARMV5=1;__EXE__=1;" moduleId="configDataCache" sourcesCache="/mmcdump/inc;/mmcdump/src;" timestampCache="1607618936279" useMmpMacrosCache="true"/>
+			<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+</cproject>

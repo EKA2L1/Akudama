@@ -1,0 +1,23 @@
+/*
+ * Copyright (c) 2020 EKA2L1 Team.
+ *
+ * This work is licensed under the terms of the MIT license.  
+ * For a copy, see <https://opensource.org/licenses/MIT>.
+ */
+
+#include <e32base.h>
+#include <e32std.h>
+
+GLDEF_C TInt E32Main()
+	{
+	// Create cleanup stack
+	__UHEAP_MARK;
+	CTrapCleanup* cleanup = CTrapCleanup::New();
+
+	
+	
+	delete cleanup;
+	__UHEAP_MARKEND;
+	return KErrNone;
+	}
+

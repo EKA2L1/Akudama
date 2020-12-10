@@ -1,0 +1,86 @@
+!SESSION 2020-12-10 23:11:06.339 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-12-10 23:12:05.044
+!MESSAGE No repository found at http://tools.ext.nokia.com/carbide/updates/3.0.
+
+!ENTRY com.nokia.carbide.remoteconnections.discovery.pccs.pccsnative.PCCSConnection 4 0 2020-12-10 23:12:06.205
+!MESSAGE Carbide could not find a PC Suite installation. To install PC Suite, go to: https://tools.ext.nokia.com/PCsuite
+!STACK 1
+org.eclipse.core.runtime.CoreException: Carbide could not find a PC Suite installation. To install PC Suite, go to: https://tools.ext.nokia.com/PCsuite
+	at com.nokia.carbide.remoteconnections.discovery.pccs.pccsnative.PCCSConnection.open(PCCSConnection.java:143)
+	at com.nokia.carbide.remoteconnections.discovery.pccs.agent.PCCSDiscoveryAgent.start(PCCSDiscoveryAgent.java:186)
+	at com.nokia.carbide.remoteconnections.RemoteConnectionsActivator$3.select(RemoteConnectionsActivator.java:276)
+	at com.nokia.carbide.remoteconnections.RemoteConnectionsActivator.loadExtensions(RemoteConnectionsActivator.java:320)
+	at com.nokia.carbide.remoteconnections.RemoteConnectionsActivator.loadAndStartDeviceDiscoveryAgents(RemoteConnectionsActivator.java:270)
+	at com.nokia.carbide.remoteconnections.RemoteConnectionsActivator.access$3(RemoteConnectionsActivator.java:267)
+	at com.nokia.carbide.remoteconnections.RemoteConnectionsActivator$1.run(RemoteConnectionsActivator.java:136)
+	at com.nokia.carbide.remoteconnections.RemoteConnectionsActivator$WhenWorkbenchIsVisibleThread.run(RemoteConnectionsActivator.java:90)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.nokia.carbide.remoteconnections.discovery.pccs.pccsnative.IConnAPILibrary
+	at com.nokia.carbide.remoteconnections.discovery.pccs.pccsnative.PCCSConnection.open(PCCSConnection.java:127)
+	... 7 more
+!SUBENTRY 1 com.nokia.carbide.remoteConnections.discovery.pccs 4 1 2020-12-10 23:12:06.206
+!MESSAGE Carbide could not find a PC Suite installation. To install PC Suite, go to: https://tools.ext.nokia.com/PCsuite
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class com.nokia.carbide.remoteconnections.discovery.pccs.pccsnative.IConnAPILibrary
+	at com.nokia.carbide.remoteconnections.discovery.pccs.pccsnative.PCCSConnection.open(PCCSConnection.java:127)
+	at com.nokia.carbide.remoteconnections.discovery.pccs.agent.PCCSDiscoveryAgent.start(PCCSDiscoveryAgent.java:186)
+	at com.nokia.carbide.remoteconnections.RemoteConnectionsActivator$3.select(RemoteConnectionsActivator.java:276)
+	at com.nokia.carbide.remoteconnections.RemoteConnectionsActivator.loadExtensions(RemoteConnectionsActivator.java:320)
+	at com.nokia.carbide.remoteconnections.RemoteConnectionsActivator.loadAndStartDeviceDiscoveryAgents(RemoteConnectionsActivator.java:270)
+	at com.nokia.carbide.remoteconnections.RemoteConnectionsActivator.access$3(RemoteConnectionsActivator.java:267)
+	at com.nokia.carbide.remoteconnections.RemoteConnectionsActivator$1.run(RemoteConnectionsActivator.java:136)
+	at com.nokia.carbide.remoteconnections.RemoteConnectionsActivator$WhenWorkbenchIsVisibleThread.run(RemoteConnectionsActivator.java:90)
+
+!ENTRY com.nokia.carbide.cpp.project.core 1 0 2020-12-10 23:15:02.921
+!MESSAGE Created 'mmcdump' (13 resources, 1 mmp files) in 1.29 sec.
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-12-10 23:15:04.943
+!MESSAGE Indexed 'mmcdump' (1 sources, 17 headers) in 1.83 sec: 10,226 declarations; 10,541 references; 0 unresolved inclusions; 2,546 syntax errors; 328 unresolved names (1.55%)
+!SESSION 2020-12-11 00:28:57.921 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.nokia.carbide.remoteconnections.discovery.pccs.pccsnative.PCCSConnection 4 0 2020-12-11 00:29:05.938
+!MESSAGE Carbide could not find a PC Suite installation. To install PC Suite, go to: https://tools.ext.nokia.com/PCsuite
+!STACK 1
+org.eclipse.core.runtime.CoreException: Carbide could not find a PC Suite installation. To install PC Suite, go to: https://tools.ext.nokia.com/PCsuite
+	at com.nokia.carbide.remoteconnections.discovery.pccs.pccsnative.PCCSConnection.open(PCCSConnection.java:143)
+	at com.nokia.carbide.remoteconnections.discovery.pccs.agent.PCCSDiscoveryAgent.start(PCCSDiscoveryAgent.java:186)
+	at com.nokia.carbide.remoteconnections.RemoteConnectionsActivator$3.select(RemoteConnectionsActivator.java:276)
+	at com.nokia.carbide.remoteconnections.RemoteConnectionsActivator.loadExtensions(RemoteConnectionsActivator.java:320)
+	at com.nokia.carbide.remoteconnections.RemoteConnectionsActivator.loadAndStartDeviceDiscoveryAgents(RemoteConnectionsActivator.java:270)
+	at com.nokia.carbide.remoteconnections.RemoteConnectionsActivator.access$3(RemoteConnectionsActivator.java:267)
+	at com.nokia.carbide.remoteconnections.RemoteConnectionsActivator$1.run(RemoteConnectionsActivator.java:136)
+	at com.nokia.carbide.remoteconnections.RemoteConnectionsActivator$WhenWorkbenchIsVisibleThread.run(RemoteConnectionsActivator.java:90)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.nokia.carbide.remoteconnections.discovery.pccs.pccsnative.IConnAPILibrary
+	at com.nokia.carbide.remoteconnections.discovery.pccs.pccsnative.PCCSConnection.open(PCCSConnection.java:127)
+	... 7 more
+!SUBENTRY 1 com.nokia.carbide.remoteConnections.discovery.pccs 4 1 2020-12-11 00:29:05.938
+!MESSAGE Carbide could not find a PC Suite installation. To install PC Suite, go to: https://tools.ext.nokia.com/PCsuite
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class com.nokia.carbide.remoteconnections.discovery.pccs.pccsnative.IConnAPILibrary
+	at com.nokia.carbide.remoteconnections.discovery.pccs.pccsnative.PCCSConnection.open(PCCSConnection.java:127)
+	at com.nokia.carbide.remoteconnections.discovery.pccs.agent.PCCSDiscoveryAgent.start(PCCSDiscoveryAgent.java:186)
+	at com.nokia.carbide.remoteconnections.RemoteConnectionsActivator$3.select(RemoteConnectionsActivator.java:276)
+	at com.nokia.carbide.remoteconnections.RemoteConnectionsActivator.loadExtensions(RemoteConnectionsActivator.java:320)
+	at com.nokia.carbide.remoteconnections.RemoteConnectionsActivator.loadAndStartDeviceDiscoveryAgents(RemoteConnectionsActivator.java:270)
+	at com.nokia.carbide.remoteconnections.RemoteConnectionsActivator.access$3(RemoteConnectionsActivator.java:267)
+	at com.nokia.carbide.remoteconnections.RemoteConnectionsActivator$1.run(RemoteConnectionsActivator.java:136)
+	at com.nokia.carbide.remoteconnections.RemoteConnectionsActivator$WhenWorkbenchIsVisibleThread.run(RemoteConnectionsActivator.java:90)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-12-11 00:29:09.849
+!MESSAGE No repository found at http://tools.ext.nokia.com/carbide/updates/3.0.
+
+!ENTRY com.nokia.carbide.cpp.project.core 1 0 2020-12-11 00:32:53.453
+!MESSAGE Created 'accuracy' (13 resources, 1 mmp files) in 0.42 sec.
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-12-11 00:32:54.726
+!MESSAGE Indexed 'accuracy' (1 sources, 17 headers) in 1.23 sec: 10,226 declarations; 10,541 references; 0 unresolved inclusions; 2,546 syntax errors; 328 unresolved names (1.55%)

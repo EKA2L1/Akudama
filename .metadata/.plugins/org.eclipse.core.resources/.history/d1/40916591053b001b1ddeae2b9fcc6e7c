@@ -1,0 +1,48 @@
+/*
+ ============================================================================
+ Name		: mmcdump.cpp
+ Author	  : 
+ Copyright   : Your copyright notice
+ Description : Exe source file
+ ============================================================================
+ */
+
+//  Include Files  
+
+#include "mmcdump.h"
+
+#include <e32base.h>
+#include <e32std.h>
+#include <f32file.h>
+
+#include <e32svr.h>
+
+_LIT(KMmcIfLddName, "GD1DRV");
+_LIT(KMmcInfoFilePath, "C:\\MmcInfo.txt");
+
+_LIT(KMmcTypeFormatStr, "MMC type: %s (%d)");
+_LIT(KMmcIdFormatStr, "MMC ID: ");
+
+GLDEF_C TInt E32Main()
+	{
+	// Create cleanup stack
+	__UHEAP_MARK;
+	CTrapCleanup* cleanup = CTrapCleanup::New();
+
+	// Connect to FS service first
+	RFs fs;
+	fs.Connect(-1);
+	
+	RFile infoFile;
+	if (infoFile.Replace(fs, KMmcInfoFilePath, EFileShareAny|EFileWrite) != KErrNone) {
+		
+	}
+	
+	// Load logical device
+	User::LoadLogicalDevice(KMmcIfLddName);
+
+	delete cleanup;
+	__UHEAP_MARKEND;
+	return KErrNone;
+	}
+

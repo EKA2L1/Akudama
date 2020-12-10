@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="group" key="groupDir"/>
+	<item value="src" key="sourceDir"/>
+	<item value="" key="author"/>
+	<item value="0" key="NewProjectPage.LAST_BUILDER_STORE"/>
+	<item value="sis" key="sisDir"/>
+	<item value="data" key="dataDir"/>
+	<item value="Your copyright notice" key="copyright"/>
+	<item value="inc" key="incDir"/>
+</section>

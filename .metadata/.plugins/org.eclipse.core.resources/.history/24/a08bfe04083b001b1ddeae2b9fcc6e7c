@@ -1,0 +1,11 @@
+#include "mmcbus.h"
+
+CMmcBusChannel::CMmcBusChannel()
+	: RBusLogicalChannel() {
+}
+	
+	void ConstructL();
+	
+	TInt SelectCard(TInt aIndex);
+	TInt GetCardInfo(TMmcIfInfo *aInfo);
+};

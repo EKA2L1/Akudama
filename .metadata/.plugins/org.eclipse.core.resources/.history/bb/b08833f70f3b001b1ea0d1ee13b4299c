@@ -1,0 +1,60 @@
+/*
+ * Copyright (c) 2020 EKA2L1 Team.
+ *
+ * This work is licensed under the terms of the MIT license.  
+ * For a copy, see <https://opensource.org/licenses/MIT>.
+ */
+
+#include <e32base.h>
+#include <e32std.h>
+#include <f32file.h>
+
+_LIT(KAccuracyOutputPath, "C:\\AccuracyCheck.txt");
+
+void DoLocalCodeCheckL(RFile &aFile) {
+	const TUint32 KTestCodeChunkSize = 0x1000;
+	
+	RChunk testChunk;
+	User::LeaveIfError(testChunk.CreateLocalCode(KTestCodeChunkSize, KTestCodeChunkSize, EOwnerProcess));
+	
+	_LIT8(KLocalCodeChunkOutLineStr, "Base address of local code chunk is 0x%08x");
+	
+	TBuf8<128> outLine;
+	outLine.Format(KLocalCodeChunkOutLineStr, (TUint32)testChunk.Base());
+}
+
+GLDEF_C TInt E32Main()
+	{
+	// Create cleanup stack
+	__UHEAP_MARK;
+	CTrapCleanup* cleanup = CTrapCleanup::New();
+
+	// Connect to FS service first
+	RFs fs;
+	fs.Connect(-1);
+	
+	RNotifier notifier;
+	notifier.Connect();
+	
+	TInt err = KErrNone;
+	
+	RFile infoFile;
+	if (infoFile.Replace(fs, KAccuracyOutputPath, EFileShareAny|EFileWrite) != KErrNone) {
+		notifier.InfoPrint(KMmcFailOpenDumpInfoFileStr);
+	} else {
+		TRAP(err, DumpCardInfoL(infoFile));
+		
+		if (err != KErrNone) {
+			notifier.InfoPrint(KMmcFailDumpInfoFileStr);
+		}
+	}
+	
+	infoFile.Close();
+	notifier.Close();
+	fs.Close();
+	
+	delete cleanup;
+	__UHEAP_MARKEND;
+	return KErrNone;
+	}
+

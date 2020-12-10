@@ -1,0 +1,23 @@
+#include "mmcbus.h"
+
+_LIT(KMmcIfDvcName, "MmcIf");
+
+CMmcBusChannel::CMmcBusChannel()
+	: RBusLogicalChannel() {
+}
+
+TVersion CMmcBusChannel::GetVersion() {
+	TVersion dver;
+	dver.iMajor = 1;
+	dver.iMinor = 0;
+	dver.iBuild = 1;
+	
+	return dver;
+}
+	
+void CMmcBusChannel::ConstructL() {
+	User::LeaveIfError(DoCreate(KMmcIfDvcName, GetVersion(), 0, 0, 0, 0));
+}
+	
+	TInt SelectCard(TInt aIndex);
+	TInt GetCardInfo(TMmcIfInfo *aInfo);

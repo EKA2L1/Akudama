@@ -1,0 +1,39 @@
+
+***Building project "mmcdump" for configuration "Phone Debug (GCCE) [S60_2nd_FP2]"
+
+***Printing environment variables modified from default:
+PATH=E:\Dev\Symbian\8.0a\epoc32\tools;E:\Dev\Symbian\8.0a\epoc32\gcc\bin;E:/Dev/Symbian/Carbide/jre/bin/client;E:/Dev/Symbian/Carbide/jre/bin;E:/Dev/Symbian/Carbide/jre/lib/i386;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Perl\bin\;E:\Dev\Symbian\Common\Tools;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\CSL Arm Toolchain\bin;C:\Program Files\Graphviz 2.44.1\bin;E:\Dev\Python\Scripts\;E:\Dev\Python\;C:\Users\zhong\AppData\Local\Programs\Python\Launcher\;C:\Users\zhong\AppData\Local\Microsoft\WindowsApps;C:\Users\zhong\.dotnet\tools;E:\Dev\heroku\bin;C:\Users\zhong\AppData\Local\Programs\Microsoft VS Code\bin
+=::=::\
+EPOCROOT=\Dev\Symbian\8.0a\
+NO_DEPENDENCIES=-nd
+MAKE=make -j 4
+
+Working Directory: E:/Dev/projects/akudama/mmcdump/group
+
+
+***Invoking bldmake command
+perl.exe -S bldmake.pl bldfiles  
+
+Total Time: 1 sec
+
+***Invoking abld command
+perl.exe -S ABLD.PL \Dev\projects\akudama\mmcdump\group\ export  
+  make -r  -f "\Dev\Symbian\8.0a\EPOC32\BUILD\Dev\projects\akudama\mmcdump\group\EXPORT.make" EXPORT VERBOSE=-s
+Nothing to do
+
+Total Time: 2 sec
+
+***Generating abld makefile.
+
+***Invoking abld command
+perl.exe -S ABLD.PL \Dev\projects\akudama\mmcdump\group\ makefile gcce mmcdump  
+This project does not support platform or  program "GCCE"
+
+Total Time: 2 sec
+
+***Abld returned with exit value = 255
+***Stopping.
+
+***Errors were detected in build. See the Problems or Console view for details.
+
+Total Time: 2 sec

@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="37" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="192" y="192">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="126" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.cdt.ui.buildConfigActionSet" itemType="typeToolBarContribution" x="97" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="141" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="80" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="206" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.nokia.carbide.cpp.project.ui.editors.BldInfEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.nokia.carbide.cpp.mmpEditor.MMPEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1607616714811" focus="true" label="Workspace - Carbide C/C++">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="com.nokia.carbide.discovery.ui.portalEditor" name="Carbide.c++ Portal" partName="Carbide.c++ Portal" title="Carbide.c++ Portal" tooltip="Carbide.c++ Portal" workbook="DefaultEditorWorkbook">
+<input factoryID="com.nokia.carbide.discovery.ui.portalEditorFactory"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="mmcdump.cpp" partName="mmcdump.cpp" path="E:/Dev/projects/akudama/mmcdump/src/mmcdump.cpp" title="mmcdump.cpp" tooltip="mmcdump/src/mmcdump.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mmcdump/src/mmcdump.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="72" selectionOffset="495" selectionTopPixel="140"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="mmcdump.h" partName="mmcdump.h" path="E:/Dev/projects/akudama/mmcdump/inc/mmcdump.h" title="mmcdump.h" tooltip="mmcdump/inc/mmcdump.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mmcdump/inc/mmcdump.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="218" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="mmcbus.h" partName="mmcbus.h" path="E:/Dev/projects/akudama/mmcdump/inc/mmcbus.h" title="mmcbus.h" tooltip="mmcdump/inc/mmcbus.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mmcdump/inc/mmcbus.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="378" selectionTopPixel="223"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="mmcbus.cpp" partName="mmcbus.cpp" path="E:/Dev/projects/akudama/mmcdump/src/mmcbus.cpp" title="mmcbus.cpp" tooltip="mmcdump/src/mmcbus.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mmcdump/src/mmcbus.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="170" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="com.nokia.carbide.cpp.mmpEditor.MMPEditor" name="mmcdump.mmp" partName="mmcdump.mmp" path="E:/Dev/projects/akudama/mmcdump/group/mmcdump.mmp" title="mmcdump.mmp" tooltip="mmcdump/group/mmcdump.mmp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mmcdump/group/mmcdump.mmp"/>
+</editor>
+<editor id="com.nokia.carbide.cpp.project.ui.editors.BldInfEditor" name="bld.inf" partName="bld.inf" path="E:/Dev/projects/akudama/mmcdump/group/bld.inf" title="bld.inf" tooltip="mmcdump/group/bld.inf" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mmcdump/group/bld.inf"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="ABLD.BAT" partName="ABLD.BAT" path="E:/Dev/projects/akudama/mmcdump/group/ABLD.BAT" title="ABLD.BAT" tooltip="mmcdump/group/ABLD.BAT" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mmcdump/group/ABLD.BAT"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="accuracy.cpp" partName="accuracy.cpp" path="E:/Dev/projects/akudama/accuracy/src/accuracy.cpp" title="accuracy.cpp" tooltip="accuracy/src/accuracy.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/accuracy/src/accuracy.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="890" selectionTopPixel="180"/>
+</editor>
+<editor id="com.nokia.carbide.cpp.mmpEditor.MMPEditor" name="accuracy.mmp" partName="accuracy.mmp" path="E:/Dev/projects/akudama/accuracy/group/accuracy.mmp" title="accuracy.mmp" tooltip="accuracy/group/accuracy.mmp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/accuracy/group/accuracy.mmp"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" CommonNavigator.LINKING_ENABLED.delayed="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="com.nokia.carbide.cpp.project.ui.views.SymbianProjectNavigatorView" partName="Symbian Project Navigator">
+<viewState display_sourcepaths="1" filtering="1" horizontalPosition="0" sorting="0" verticalPosition="0">
+<selection>
+<iproject path="accuracy"/>
+</selection>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.creationTimeField" categoryGroup="org.eclipse.ui.ide.allMarkers.severity" markerContentGenerator="com.nokia.carbide.cpp.project.ui.problemsGenerator" partName="Problems">
+<columnWidths org.eclipse.ui.ide.creationTimeField="120" org.eclipse.ui.ide.locationField="84" org.eclipse.ui.ide.markerType="124" org.eclipse.ui.ide.pathField="164" org.eclipse.ui.ide.resourceField="124" org.eclipse.ui.ide.severityAndDescriptionField="404"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.creationTimeField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.cdt.debug.ui.executablesView" partName="Executables"/>
+<view id="com.nokia.carbide.remoteconnections.view.ConnectionsView" partName="Remote Connections"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="com.nokia.carbide.cpp.CarbideCppPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.nokia.carbide.cpp.internal.project.ui.perspective.CarbideCppPerspectiveFactory" id="com.nokia.carbide.cpp.CarbideCppPerspective" label="Carbide C/C++"/>
+<alwaysOnActionSet id="com.freescale.openSourceHeader.actionSet"/>
+<alwaysOnActionSet id="com.nokia.carbide.cpp.displayReleaseNotes"/>
+<alwaysOnActionSet id="AAA.com.nokia.carbide.cpp.ui.CarbideMenu"/>
+<alwaysOnActionSet id="com.nokia.carbide.discovery.ui.actionSet"/>
+<alwaysOnActionSet id="com.nokia.carbide.search.system.searchActionSet"/>
+<alwaysOnActionSet id="com.trolltech.qtcppproject.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.debug.edc.ui.snapshotDebuggingActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.debug.edc.ui.debugEDCActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.SearchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.buildConfigActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.NavigationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.OpenActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="com.nokia.carbide.cpp.project.ui.views.SymbianProjectNavigatorView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.cdt.debug.ui.executablesView"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewSourceFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewHeaderFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="com.nokia.carbide.cpp.project.ui.wizards.NewProjectWizard"/>
+<new_wizard_action id="com.nokia.carbide.cpp.project.ui.wizards.NewClassWizard"/>
+<new_wizard_action id="com.nokia.carbide.cpp.project.ui.mmpWizard"/>
+<new_wizard_action id="com.nokia.carbide.cpp.qt.ui.wizard.NewQtCppProjectWizard"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<perspective_action id="com.trolltech.qtcppproject.QtCppPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="com.nokia.carbide.cpp.project.ui.views.SymbianProjectNavigatorView"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.cdt.debug.ui.executablesView"/>
+<view id="com.nokia.carbide.remoteconnections.view.ConnectionsView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.749499" ratioLeft="748" ratioRight="250" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.249499" ratioLeft="249" ratioRight="749" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.7488152" ratioLeft="474" ratioRight="159" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.cdt.debug.ui.executablesView" label="Executables"/>
+<page content="com.nokia.carbide.remoteconnections.view.ConnectionsView" label="Remote Connections"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="topRight" ratio="0.74899864" ratioLeft="561" ratioRight="188" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottomLeft" ratio="0.49921012" ratioLeft="316" ratioRight="317" relationship="4" relative="topLeft">
+<folder activePageID="com.nokia.carbide.cpp.project.ui.views.SymbianProjectNavigatorView" appearance="2" expanded="2">
+<page content="com.nokia.carbide.cpp.project.ui.views.SymbianProjectNavigatorView" label="Symbian Project Navigator"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mmcdump/src/mmcdump.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mmcdump/inc/mmcdump.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/mmcdump/inc/mmcbus.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mmcdump/src/mmcbus.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.nokia.carbide.cpp.mmpEditor.MMPEditor" path="/mmcdump/group/mmcdump.mmp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.nokia.carbide.cpp.project.ui.editors.BldInfEditor" path="/mmcdump/group/bld.inf"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/mmcdump/group/ABLD.BAT"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/accuracy/src/accuracy.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.nokia.carbide.cpp.mmpEditor.MMPEditor" path="/accuracy/group/accuracy.mmp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/accuracy/inc/accuracy.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mmcdump/src/mmcbus.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mmcdump/src/mmcdump.cpp"/>
+</editors>
+<item historyLabel="mmcbus.h" index="2">
+<position info="not_deleted" x="369" y="0"/>
+</item>
+<item historyLabel="mmcdump.cpp" index="0">
+<position info="not_deleted" x="194" y="21"/>
+</item>
+<item historyLabel="mmcbus.cpp" index="3">
+<position info="not_deleted" x="749" y="0"/>
+</item>
+<item historyLabel="mmcbus.h" index="2">
+<position info="not_deleted" x="0" y="173"/>
+</item>
+<item historyLabel="mmcdump.h" index="1">
+<position info="not_deleted" x="218" y="0"/>
+</item>
+<item historyLabel="mmcbus.cpp" index="3">
+<position info="not_deleted" x="749" y="0"/>
+</item>
+<item historyLabel="mmcdump.cpp" index="0">
+<position info="not_deleted" x="194" y="21"/>
+</item>
+<item historyLabel="mmcbus.cpp" index="3">
+<position info="not_deleted" x="173" y="0"/>
+</item>
+<item historyLabel="mmcdump.cpp" index="0">
+<position info="not_deleted" x="194" y="21"/>
+</item>
+<item historyLabel="mmcdump.cpp" index="0">
+<position info="not_deleted" x="339" y="0"/>
+</item>
+<item historyLabel="mmcbus.h" index="2">
+<position info="not_deleted" x="0" y="173"/>
+</item>
+<item historyLabel="mmcbus.cpp" index="3">
+<position info="not_deleted" x="196" y="0"/>
+</item>
+<item historyLabel="mmcbus.h" index="2">
+<position info="not_deleted" x="249" y="13"/>
+</item>
+<item historyLabel="mmcbus.cpp" index="3">
+<position info="not_deleted" x="58" y="0"/>
+</item>
+<item historyLabel="mmcdump.cpp" index="0">
+<position info="not_deleted" x="339" y="0"/>
+</item>
+<item historyLabel="mmcdump.cpp" index="0">
+<position info="not_deleted" x="1721" y="0"/>
+</item>
+<item historyLabel="mmcdump.h" index="1">
+<position info="not_deleted" x="218" y="0"/>
+</item>
+<item historyLabel="mmcbus.h" index="2">
+<position info="not_deleted" x="584" y="0"/>
+</item>
+<item historyLabel="mmcdump.cpp" index="0">
+<position info="not_deleted" x="1721" y="0"/>
+</item>
+<item historyLabel="mmcbus.h" index="2">
+<position info="not_deleted" x="378" y="10"/>
+</item>
+<item historyLabel="mmcdump.cpp" index="0">
+<position info="not_deleted" x="1250" y="0"/>
+</item>
+<item historyLabel="mmcbus.h" index="2">
+<position info="not_deleted" x="378" y="10"/>
+</item>
+<item historyLabel="mmcdump.cpp" index="0">
+<position info="not_deleted" x="1250" y="0"/>
+</item>
+<item historyLabel="mmcdump.cpp" index="0">
+<position info="not_deleted" x="1718" y="0"/>
+</item>
+<item historyLabel="mmcdump.cpp" index="0">
+<position info="not_deleted" x="2397" y="0"/>
+</item>
+<item historyLabel="bld.inf" index="5"/>
+<item historyLabel="mmcdump.mmp" index="4"/>
+<item historyLabel="ABLD.BAT" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ABLD.BAT" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="accuracy.cpp" index="7">
+<position info="not_deleted" x="0" y="170"/>
+</item>
+<item historyLabel="accuracy.mmp" index="8"/>
+<item historyLabel="accuracy.h" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="mmcbus.cpp" index="10">
+<position info="not_deleted" x="0" y="170"/>
+</item>
+<item historyLabel="accuracy.h" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="mmcbus.cpp" index="10">
+<position info="not_deleted" x="0" y="170"/>
+</item>
+<item historyLabel="accuracy.cpp" index="7">
+<position info="not_deleted" x="0" y="170"/>
+</item>
+<item historyLabel="mmcdump.cpp" index="11">
+<position info="not_deleted" x="2091" y="488"/>
+</item>
+<item historyLabel="accuracy.cpp" index="7">
+<position/>
+</item>
+<item historyLabel="mmcdump.cpp" index="11">
+<position info="not_deleted" x="339" y="44"/>
+</item>
+<item historyLabel="accuracy.cpp" index="7">
+<position/>
+</item>
+<item historyLabel="accuracy.cpp" index="7">
+<position info="not_deleted" x="914" y="0"/>
+</item>
+<item historyLabel="accuracy.cpp" index="7">
+<position info="not_deleted" x="911" y="0"/>
+</item>
+<item historyLabel="accuracy.cpp" index="7">
+<position info="not_deleted" x="1296" y="0"/>
+</item>
+<item historyLabel="mmcdump.cpp" index="11">
+<position info="not_deleted" x="495" y="72"/>
+</item>
+<item historyLabel="accuracy.cpp" index="7">
+<position info="not_deleted" x="1296" y="0"/>
+</item>
+<item historyLabel="accuracy.cpp" index="7">
+<position info="not_deleted" x="1475" y="0"/>
+</item>
+<item historyLabel="accuracy.cpp" index="7">
+<position info="not_deleted" x="1485" y="0"/>
+</item>
+<item historyLabel="accuracy.cpp" index="7">
+<position info="not_deleted" x="1387" y="0"/>
+</item>
+<item historyLabel="accuracy.mmp" index="8"/>
+<item active="true" historyLabel="accuracy.cpp" index="7">
+<position info="not_deleted" x="1387" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="com.nokia.carbide.remoteConnections.contributions.toolbar.trim"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="accuracy.h" tooltip="accuracy/inc/accuracy.h">
+<persistable path="/accuracy/inc/accuracy.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.nokia.carbide.cpp.mmpEditor.MMPEditor" name="accuracy.mmp" tooltip="accuracy/group/accuracy.mmp">
+<persistable path="/accuracy/group/accuracy.mmp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="accuracy.cpp" tooltip="accuracy/src/accuracy.cpp">
+<persistable path="/accuracy/src/accuracy.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="ABLD.BAT" tooltip="mmcdump/group/ABLD.BAT">
+<persistable path="/mmcdump/group/ABLD.BAT"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.nokia.carbide.cpp.project.ui.editors.BldInfEditor" name="bld.inf" tooltip="mmcdump/group/bld.inf">
+<persistable path="/mmcdump/group/bld.inf"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.nokia.carbide.cpp.mmpEditor.MMPEditor" name="mmcdump.mmp" tooltip="mmcdump/group/mmcdump.mmp">
+<persistable path="/mmcdump/group/mmcdump.mmp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mmcbus.cpp" tooltip="mmcdump/src/mmcbus.cpp">
+<persistable path="/mmcdump/src/mmcbus.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="mmcbus" tooltip="mmcdump/inc/mmcbus">
+<persistable path="/mmcdump/inc/mmcbus"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mmcdump.h" tooltip="mmcdump/inc/mmcdump.h">
+<persistable path="/mmcdump/inc/mmcdump.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mmcdump.cpp" tooltip="mmcdump/src/mmcdump.cpp">
+<persistable path="/mmcdump/src/mmcdump.cpp"/>
+</file>
+<file factoryID="com.nokia.carbide.discovery.ui.portalEditorFactory" id="com.nokia.carbide.discovery.ui.portalEditor" name="Carbide.c++ Portal" tooltip="Carbide.c++ Portal">
+<persistable/>
+</file>
+</mruList>
+</workbench>

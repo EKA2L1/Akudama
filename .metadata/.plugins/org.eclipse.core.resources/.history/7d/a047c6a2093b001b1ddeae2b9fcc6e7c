@@ -1,0 +1,76 @@
+/*
+ * Copyright (c) 2020 EKA2L1 Team.
+ *
+ * This work is licensed under the terms of the MIT license.  
+ * For a copy, see <https://opensource.org/licenses/MIT>.
+ */
+
+#include "mmcdump.h"
+#include "mmcbus.h"
+
+#include <e32base.h>
+#include <e32std.h>
+#include <f32file.h>
+
+#include <e32svr.h>
+
+_LIT(KMmcIfLddName, "GD1DRV");
+_LIT(KMmcInfoFilePath, "C:\\MmcInfo.txt");
+
+_LIT(KMmcTypeFormatStr, "MMC type: %s (%d)");
+_LIT(KMmcIdFormatStr, "MMC ID: ");
+
+_LIT(KMmcFailOpenDumpInfoFileStr, "Fail opening MMC info dump file!");
+
+_LIT(KMmcMediaTypeROMStr, "ROM");
+_LIT(KMmcMediaTypeFlashStr, "Flash");
+_LIT(KMmcMediaTypeIOStr, "IO");
+_LIT(KMmcMediaTypeOtherStr, "Other");
+_LIT(KMmcMediaTypeNotSupportedStr, "Not supported");
+
+TDesC16 *GetMmcMediaTypeStr(const TInt aType) {
+	
+}
+
+TInt DumpCardInfoL(RFile &aOutputFile) {
+	// Load logical device
+	User::LoadLogicalDevice(KMmcIfLddName);
+	
+	CMmcBusChannel mmcDev;
+	mmcDev.ConstructL();
+	
+	User::LeaveIfError(mmcDev.SelectCard(0));
+	
+	// Get card info
+	TMmcIfInfo mmcInfo;
+	User::LeaveIfError(mmcDev.GetCardInfo(&mmcInfo));
+	
+	TBuf<256> lineToWrite;
+	
+	User::FreeLogicalDevice(KMmcIfDvcName);
+}
+
+GLDEF_C TInt E32Main()
+	{
+	// Create cleanup stack
+	__UHEAP_MARK;
+	CTrapCleanup* cleanup = CTrapCleanup::New();
+
+	// Connect to FS service first
+	RFs fs;
+	fs.Connect(-1);
+	
+	RNotifier notifier;
+	notifier.Connect();
+	
+	RFile infoFile;
+	if (infoFile.Replace(fs, KMmcInfoFilePath, EFileShareAny|EFileWrite) != KErrNone) {
+		notifier.InfoPrint(KMmcFailOpenDumpInfoFileStr);
+		return 0;
+	}
+	
+	delete cleanup;
+	__UHEAP_MARKEND;
+	return KErrNone;
+	}
+

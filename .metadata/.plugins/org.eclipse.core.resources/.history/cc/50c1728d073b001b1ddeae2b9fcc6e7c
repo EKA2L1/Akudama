@@ -1,0 +1,13 @@
+TARGET		  mmcdump.exe
+TARGETTYPE	  exe
+UID			 0 0xe96fe421
+
+USERINCLUDE	    ..\inc
+SYSTEMINCLUDE   \epoc32\include
+
+SOURCEPATH      ..\src
+SOURCE		  mmcdump.cpp
+
+LIBRARY		 euser.lib
+
+DEBUGGABLE_UDEBONLY
